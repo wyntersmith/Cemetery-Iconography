@@ -1,6 +1,6 @@
 # London Gravestone Iconography
 ## Project Overview
-A website that displays trends in gravestone iconography in London cemeteries for CU INFO 4747.
+
 
 ### Contributers
 |Name|Email|Role|
