@@ -1,6 +1,12 @@
 # London Gravestone Iconography
-## Overview
+## Project Overview
 A website that displays trends in gravestone iconography in London cemeteries for CU INFO 4747.
+
+### Contributers
+|Name|Email|Role|
+|----|-----|----|
+|Zoie Nuño|zolita.nuno@colorado.edu|Data collection and analysis|
+|Genesse Miles|genesse.miles@colorado.edu|Data collection and analysis|
 
 ### Cemeteries
 1. Highgate Cemetery
