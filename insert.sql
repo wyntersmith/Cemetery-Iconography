@@ -1,9 +1,13 @@
+--------------------------- Fill Cemetery Table ----------------------
+
 INSERT INTO Cemetery(CemID, Name)
 VALUES('1', 'Highgate'),
 ('2', 'Kensal Green'),
 ('3', 'Abney Park'),
 ('4', 'Old Church'),
 ('5', 'Salisbury Cathedral');
+
+---------------------------- Fill Deceased Table ----------------------
 
 -- Highgate Cemetery
 INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
@@ -135,6 +139,50 @@ VALUES('1','1','C.J.','','Woollard','1917'),
 ('126','1','Leonard','William','Reynolds','1928')
 
 -- Kensal Green Cemetery
-
+INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
+VALUES('127','2','Charlotte','Gravelet','Blondin','1888'),
+('128','2','Jean','Francois Gravelet','Blondin','1897'),
+('129','2','Eliza','Jane','Deakins','1886'),
+('130','2','Elsie','Clabys','Deakins','1881'),
+('131','2','Robert','','Parnall','1885'),
+('132','2','Elizabeth','','Parnall','1896'),
+('133','2','Wilkie','','Collins','1889'),
+('134','2','William','Vincent','Wallace','1865'),
+('135','2','Catherine','Hayes','Bushnell','1861'),
+('136','2','George','','Cruikshank','1878'),
+('137','2','William','Vincent','Wallace','1865'),
+('138','2','Andrew','','Ducrow','1842'),
+('139','2','Sophia','','','1848'),	--princess sophia, sister of duke of sussex
+('140','2','Augustus','Frederick','','1843'),	--duke of sussex
+('141','2','John','St. John','Long','1834'),
+('142','2','Thomas','','Hood','1845'),
+('143','2','Michael','William','Balfe','1870'),
+('144','2','Anne','','Molyneux','1871'),
+('145','2','Edmund','','Molyneux','1864'),
+('146','2','Eliza','Harriet','Molyneux','1872'),
+('147','2','Richard','','Mayne','1868'),
+('148','2','Georgiana','Marianne Catherine','Mayne','1872'),
+('149','2','Richard','Charles','Mayne','1892'),
+('150','2','Sabine','','Mayne','1931'),
+('151','2','Charles','Edward','Mayne','1873'),
+('152','2','William','','Mulready','1863'),
+('153','2','William','','Thackeray','1863'),
+('154','2','William','','Casement','1844'),
+('155','2','Patrick','','O Brian','1895'),
+('156','2','Gulielmus','','Bettamio','1871'),
+('157','2','Marc','Isambard','Brunel','1849'),
+('158','2','Sophia','','Brunel','1855'),
+('159','2','Isambard','Kingdom','Brunel','1859'),
+('160','2','Mary','Elizabeth','Brunel','1881'),
+('161','2','Isambard','','Brunel','1902'),
+('162','2','Henry','Marc','Brunel','1903'),
+('163','2','Georgina','Geils Donald','Brunel','1911'),
+('164','2','Lilian','Sarah James','Brunel','1929'),
+('165','2','Marta','Jeronima','Bettamio','1864'),
+('166','2','Thomas','','Parker','1851'),
+('167','2','W.P.','','Lewis','1856'),
+('168','2','Frederick','','Tillson','1870'),
+('169','2','William','','Hurst','1882'),
+('170','2','Anthony','','Trollope','1882');
 
 -- Abney Park Cemetery
