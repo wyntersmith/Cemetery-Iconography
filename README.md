@@ -49,7 +49,21 @@ We went on both official and unofficial cemetery tours of the listed cemeteries.
 - Present iconography
 - Epitaph
 
+#### Assumptions
+The following assumptions were made based on each headstone analyzed:
+- If multiple people were buried in the same grave, unless otherwise stated, it was assumed they were related and shared a family name. 
+- 
+-
+
 ### Data Analysis
 
 
 ### Take-Aways
+
+
+### Future Work
+In the future, we would like to return to our original analysis goal of determining and analyzing iconography of atypical burials compared to other burials. We would also like to further expand on this work with more insight into the deceased to help evaluate and gain a deeper understanding of the different iconography and epitaphs commonly used in burials. We could do this by gathering more information about the deceased, such as:
+- sex
+- date of birth
+- place of birth
+- occupation
