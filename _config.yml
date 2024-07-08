@@ -1,3 +1,6 @@
+remote_theme: chrisbobbe/jekyll-theme-prologue
+collections: [sections]
+
 # Where things are
 source              : .
 destination         : ./_site
