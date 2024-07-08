@@ -186,3 +186,201 @@ VALUES('127','2','Charlotte','Gravelet','Blondin','1888'),
 ('170','2','Anthony','','Trollope','1882');
 
 -- Abney Park Cemetery
+INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
+VALUES('171','3','Joseph','','Farley','1930'),
+('172','3','John','William','Lansdell','1917'),
+('173','3','Mary','Jane','Lansdel','1921'),
+('174','3','Constance','Lorne','Lansdel','1922'),
+('175','3','Frances','Ann','Little','1918'),
+('176','3','John','','Sykes','1842'),
+('177','3','Joseph','','Sykes','1851'),
+('178','3','Charles','','Green',''),	-- ddate illegible
+('179','3','William','Joseph','Green','1871'),
+('180','3','Ann','','Green',''),	----ddate illegible
+('181','3','John','','Green',''),  -- ddate illegible, 188 something
+('182','3','Robert','','Littler','1870'),
+('183','3','Sarah','','Littler','1862'),
+('184','3','John','','Littler','1844'),
+('185','3','Charles','Reed','Knight','1881'),
+('186','3','Margaret','','Knight',''),	----ddate illegible, 189 something
+('187','3','Nellie','','','1917'),	--other info not provided
+('188','3','Selina','Sarah','Tee','1916'),
+('189','3','Edward','','Tee','1926'),
+('190','3','Sarah','Ann','Tee',''),	--ddate illegible
+('191','3','Bertha','Eileen','Allsop','1916'),
+('192','3','Frank','T','Allsop','1918'),
+('193','3','Frank','Charles','Allsop','1949'),
+('194','3','Frederick','','James','1925'),
+('195','3','J.T.','','Crafer','1921'),
+('196','3','Charles','Eustace','Summers','1888'),
+('197','3','Robert','','Summers','1894'),
+('198','3','Helen','Mary','Summers','1898'),
+('199','3','Amelia','','Summers','1909'),
+('200','3','Henrietta','Elizabeth','Summers','1937'),
+('201','3','Francis','George','Summers','1951'),
+('202','3','Margaret','','Thomas',''),	--ddate illegible
+('203','3','Ellen','','Messenger','1887'),
+('204','3','Kate','Louisa','Messenger','1881'),
+('205','3','Janet','Louise','Messenger','1900'),
+('206','3','Harry','George','Messenger','1904'),
+('207','3','Florence','Phyllis','Messenger','1911'),
+('208','3','Walter','Edmund','Messenger','1918'),
+('209','3','Dorothy','Mary','','1891'),	-- last name possibly willis
+('210','3','Mary','Ann','Willis','1898'),
+('211','3','George','Lovell','Russell',''),	--ddate illegible
+('212','3','Walter','Sadler','Simmons','1924'),
+('213','3','Selina','Elizabeth','Simmons','1896'),
+('214','3','Ella','Muriel','Simmons','1890'),
+('215','3','Ethel','Irene','Simmons','1898'),
+('216','3','Selina','Gertrude','Simmons',''),	--ddate illegible, 192 something
+('217','3','Laura','','Simmons',''),	--middle name and ddate illegible, 1 something 9
+('218','3','Augustus','Townsend','Smith','1841'),
+('220','3','Edward','','Smith','1870'),
+('221','3','Ann','Fletchley','Smith',''), --ddate illegible
+('222','3','Mary','','Fisher','1891'),
+('223','3','Eden','','Fisher','1892'),
+('224','3','Sarah','Elizabeth','Nuller','1926'),
+('225','3','William','','Kippist','1843'),
+('226','3','Justina','','Kippist','1849'),
+('227','3','Ida','','Woitek','1941'),
+('228','3','George','Conrad','Woitek','1929'),
+('229','3','Helene','','Woitek','1920'),
+('230','3','Janie','','Prater','1895'),
+('231','3','Jane','Harriet','Prater','1896'),
+('232','3','Joseph','','Prater',''),	--ddate illegible
+('233','3','Emily','','Clark','1895'),
+('234','3','Theo','J','Towers','1841'),
+('235','3','Kate','C','Towers','1862'),
+('236','3','Clara','A','Towers','1862'),
+('237','3','William','F','Towers','1888'),
+('238','3','Harry','S','Towers','1872'),
+('239','3','Harry','','Prater',''),	-- ddate possibly 1857 or 1831?
+('240','3','Bernard','T','Horsley','1922'),
+('241','3','Mary','Ann Elizabeth','Horsley','1936'),
+('242','3','John','Henry','Horsley','1915'),
+('243','3','Kenneth','WM Avery','Horsley','1937'),
+('244','3','William','Frank','Horsley','1939'),
+('245','3','William','','Hardwood','1892'),
+('246','3','Caroline','Emma','Martin','1914'),
+('247','3','Edward','','Hill',''),	--ddate illegible
+('248','3','Alfred','Edward','Hill',''), --ddate illegible
+('249','3','Jane','','Hill','1905'),
+('250','3','George','','Yexley','1908'),
+('251','3','Elizabeth','Frances','Yexley','1918'),
+('252','3','Beatrice','Lizzie','Yexley','1928'),
+('253','3','Charles','James','Yexley',''), --ddate illegible
+('254','3','Elizabeth','Alice','Jones','1897'),
+('255','3','John','Idris','Jones','1897'),
+('256','3','Olive','Charlotte','Jones','1915'),
+('257','3','Thomas','James','Rooke','1877'),
+('258','3','Elizabeth','Alice','Fox','1855'),
+('259','3','Agnes','Blanche','Fox','1861'),
+('260','3','Henry','','Wilson','1894'),
+('261','3','Elizabeth','','Wilson','1924'),
+('262','3','Emma','','Wilson','1931'),
+('263','3','Margaret','','Wonter','1823'),
+('264','3','Thomas','','Wonter',''),	--ddate illegible, 18 something 1
+('265','3','Martin','','Brown','1867'),
+('266','3','Sarah','','Brown','1884'),
+('267','3','Jeremiah','','Death','1885'),
+('268','3','Elizabeth','','Death','1870'),
+('269','3','Charles','Friedrich','Clark','1870'),
+('270','3','Samuel','Chapman','Clark','1910'),
+('271','3','Jane','Eliza','Clark','1919'),
+('272','3','John','','Jordain','1875'), --partially illegible, last value gone, possibly 1875
+('273','3','Elizabeth','Nowell','Jordain','1898'),
+('274','3','Angelina','','Brown','1890'),
+('275','3','Emily','','North','1888'),
+('276','3','Lena','','North','1889'),	--ddate partially obscured, possibly 1889
+('277','3','Harry','','North',''),	--ddate obscured, possibly 1883 or 1933
+('278','3','Thomas','','Peardon',''),	--ddate obscured
+('279','3','Ann','','Green','1895'),
+('280','3','Edward','','Green','1902'),
+('281','3','Ann','','Doran','1904'),	-- maiden name green
+('282','3','Edward','','Green',''),	--ddate illegible
+('283','3','Henry','','Doran','1913'),	--husband of ann doran
+('284','3','William','Thomas','Adlington','1895'),
+('285','3','Herbert','Edward','Adlington','1920'),
+('286','3','Albert','William','Adlington','1943'),
+('287','3','Elsie','','','1897'),	--last name obscured
+('288','3','Harry','','','1914'),	--last name obsured, brother of elsie?
+('289','3','Arthur','Marnoch','Whitby','1902'),
+('290','3','Kathleen','Matilda Annie','Whitby','1924'),
+('291','3','John','','Furneaux','1869'),
+('292','3','Elizabeth','','Miller','1869'),
+('293','3','Peter','','Miller',''),	--ddate obscured, husband of above
+('294','3','Mary','','Miller','1885'),
+('295','3','Peter','','Miller',''),	--ddate obsucred, son of elizabeth and peter
+('296','3','Elizabeth','','Miller',''),	--ddate obscured, 19 something
+('297','3','Ann','','Senecal','1865'),
+('298','3','Ann','','Senecal','1886'),
+('299','3','Robert','','Senecal','1890'),
+('300','3','Henry','Miller','Ragland','1868'),
+('301','3','Maria','','Ragland','1880'),
+('302','3','Edward','Joseph','Dean','1899'),
+('303','3','Alice','R','Frayer','1908'),
+('304','3','Edwin','Thomas','Frayer','1936'),
+('305','3','Alice','Mary Elizabeth','Frayer','1940'),	--ddate partially obscured, possibly 1940
+('306','3','John','','Petch','1916'),
+('307','3','Rebecca','','Petch','1898'),	--ddate partially obscured, possibly 1898
+('308','3','William','','Filed','1873'),
+('309','3','Minnie','','Jacobs','1887'),
+('310','3','William','Steven','Field','1904'),
+('311','3','Mary','Elizabeth','Pruncst','1898'),
+('312','3','Sybil','Mary Victoria','Pruncst','1897'),
+('313','3','Nellie','','Pruncst','1909'),
+('314','3','Rachel','','Snare','1900'),
+('315','3','Emily','Lizette','Jarratt','1896'),
+('316','3','James','William Englbert','Vanner',''),
+('317','3','Edith','Sophia','Vanner','1933'),
+('318','3','William','Engelbert','Vanner','1941'),
+('319','3','Emily','Susan','Wills','1901'),
+('320','3','Lucy','Walters','Wills','1921'),
+('321','3','George','','Wills','1906'),
+('322','3','Lucy','','Wills','1888'),
+('323','3','Mary','','Evans','1941'),
+('324','3','Magdalen','','Evans','1937'),
+('325','3','Sarah','','Poole','1866'),	--ddate somewhat illegible, possibly 1866 or 1868
+('326','3','Gertrude','Elizabeth','Peek','1931'),
+('327','3','Henry','John Thomas','Peek','1908'),
+('328','3','David','','Challen','1887'),	--ddate partally illegible, possibly 1887
+('329','3','Caroline','','Challen','1892'),	--ddate partially illegible, possibly 1892
+('330','3','Martha','','Dadd','1898'),
+('331','3','Francis','Frederick','Dadd','1914'),
+('332','3','Anne','','Allnutt','1892'),
+('333','3','John','Elliott','Allnut','1901'),
+('334','3','Esther','','Keetch','1936'),
+('335','3','Sophia','','Holt','1910'),
+('336','3','Thomas','','Puch','1886'),
+('337','3','Mary','','Puch','1904'),
+('338','3','Richard','Marmaduke','Puch','1896'),
+('339','3','Ambrose','','Nice','1908'),	--ddate partially illegible, possibly 1908 or 1906
+('340','3','Randolph','Henry Sparrow','Nice','1920'),
+('341','3','Caroline','','Nice','1920'),
+('342','3','Samuel','','Burridge','1864'),
+('343','3','Richard','Frind','Roberts','1897'),
+('344','3','Susanna','','Roberts','1886'),	--ddate obscured, possibly 1886
+('345','3','Mary','Bob','Roberts','1914'),
+('346','3','William','Frederick','Williams','1890'),
+('347','3','Alexander','','Raleigh','1880'),
+('348','3','Mary','','Raleigh','1902'),
+('349','3','Arabella','Ginever','Culross','1898'),
+('350','3','Allan','','Culross','1930'),
+('351','3','Henry','George','Bloore','1918'),
+('352','3','Emma','Weston','Bloore','1930'),
+('353','3','Thomas','Weston','Bloore','1930'),
+('354','3','Mary','','Fisher','1891'),
+('355','3','Eden','','Fisher','1892'),
+('356','3','Sarah','Elizabeth','Nuller','1926'),
+('357','3','Eliza','','Blake','1927'),
+('358','3','Caroline','Emma','Martin','1914');
+
+-- Old Church
+INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
+VALUES('359','4','Thomas','','Ellis','1802'),
+('360','4','Sarah','','Johnson','1856'),
+('361','4','William','','Johnson','1861'),
+('362','4','Patrick','','Johnson','1863'),
+('363','4','Walter','','Johnson','1865'),
+('364','4','Patrick','','Johnson','1873'),
+('365','4','Janet','','Johnson','1891');
