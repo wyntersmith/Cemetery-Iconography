@@ -61,9 +61,13 @@ The following assumptions were made based on each headstone analyzed:
     If fully illegible, the value is initialized as NULL.
 ### Data Analysis
 
+### Results
 
 ### Take-Aways
-
+- Cremation isn't common in the UK
+- Cemeteries in the UK are surprisingly overgrown
+- Family graves are much more common in the UK compared to the US
+- Family history in cemeteries is more important to people in the UK compared to in the US. People were very excited to tell us about their family member's graves and burials.
 
 ### Future Work
 In the future, we would like to return to our original analysis goal of determining and analyzing iconography of atypical burials compared to other burials. We would also like to further expand on this work with more insight into the deceased to help evaluate and gain a deeper understanding of the different iconography and epitaphs commonly used in burials. We could do this by gathering more information about the deceased, such as:
