@@ -9,12 +9,12 @@ VALUES('1', 'Highgate'),
 
 ---------------------------- Fill Deceased Table ----------------------
 
--- Highgate Cemetery
+-- HIGHGATE CEMETERY
 INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
 VALUES('1','1','C.J.','','Woollard','1917'),
 ('2','1','Caroline','','Taylor','1930'),
 ('3','1','Arthur','William','Taylor','1950'),
-('4','1','Charles','James','Ettel',''),  			-- get ddate
+('4','1','Charles','James','Ettel','0'),  			-- get ddate
 ('5','1','Charles','Urling','Brown','1930'),
 ('6','1','Lydia','Louisa','Brown','1938'),
 ('7','1','John','Alfred','Nilsson','1931'),
@@ -25,30 +25,30 @@ VALUES('1','1','C.J.','','Woollard','1917'),
 ('12','1','James','Herbert','Thonger','1928'),
 ('13','1','Norah','','Thonger','1966'),
 ('14','1','Norman','','McKinnel','1932'),
-('15','1','Gertrude','','McKinnel',''),		--get ddate
+('15','1','Gertrude','','McKinnel','0'),		--get ddate
 ('16','1','Mary','Matilda','Ashworth','1918'),
 ('17','1','Roger','William','Ashworth','1918'),
 ('18','1','Thomas','','Ashworth','1918'),
 ('19','1','Emma','Wallace','Gray','1845'),
 ('20','1','William','','Duckworth','1890'),
 ('21','1','Zelda','','Duckworth','1915'),
-('22','1','George','N','Hassell',''), 		--get ddate
+('22','1','George','N','Hassell','0'), 		--get ddate
 ('23','1','George','Hassell','Ronaasen','1912'),
 ('24','1','Emma','Maria','Hassell','1917'),
 ('25','1','James','Northage','Slater','1886'),
 ('26','1','Henry','','Pickard','1895'),
 ('27','1','Selina','','Pickard','1912'),
 ('28','1','Adelaide','','Pickard','1930'),
-('29','1','Ernest','Victor','Pickard',''),		--get ddate, possibly 1931?
+('29','1','Ernest','Victor','Pickard','0'),		-- get ddate, possibly 1931?
 ('30','1','Lydia','Eleanor','Pickard','1945'),
 ('31','1','Jack','','Hore','1889'),
 ('32','1','Thomas','','Sayers','1865'),
 ('33','1','Michael','','Faraday','1867'),
 ('34','1','Sarah','','Faraday','1879'),
-('35','1','Mary','','Fryer',''), 	--get ddate
-('36','1','Emma','','Sly',''),		--get ddate
+('35','1','Mary','','Fryer','0'), 	--get ddate
+('36','1','Emma','','Sly','0'),		--get ddate
 ('37','1','William','','Sly','1892'),
-('38','1','Stanley','H','Sly',''),		--get ddate
+('38','1','Stanley','H','Sly','0'),		--get ddate
 ('39','1','George','','Estall','1879'),
 ('40','1','Fanny','','Estall','1815'),
 ('41','1','Harold','','Estall','1879'),
@@ -65,10 +65,10 @@ VALUES('1','1','C.J.','','Woollard','1917'),
 ('52','1','William','Henry','Monro','1895'),
 ('53','1','George','','Alfred','1983'),
 ('54','1','Susannah','','Howitt','1877'),
-('55','1','Elizabeth','Mary','Howitt',''),		--get ddate
+('55','1','Elizabeth','Mary','Howitt','0'),		--get ddate
 ('56','1','Robert','Thomas','Howitt','1891'),
-('57','1','Thomas','Taylor','Fuller',''),	--get ddate
-('58','1','Joseph','','Fuller','1856'),	--brothers
+('57','1','Thomas','Taylor','Fuller','0'),	--get ddate
+('58','1','Joseph','','Fuller','1856'),	-- brothers
 ('59','1','Joseph','','Fuller','1856'),	--brothers
 ('60','1','Adam','','Worth','1902'),
 ('61','1','Arthur','Carlton','Philips','1942'),
@@ -78,15 +78,15 @@ VALUES('1','1','C.J.','','Woollard','1917'),
 ('65','1','Jessie','','Berrill','1898'),
 ('66','1','William','John','Berrill','1926'),
 ('67','1','Arthur','William','Gotch','1930'),	--might be 1938
-('68','1','William','Murray','Frash',''),		--family vault
+('68','1','William','Murray','Frash','0'),		--family vault
 ('69','1','Anna','','Williams','1893'),
-('70','1','Thomas','','Litton',''),	--get ddate
+('70','1','Thomas','','Litton','0'),	--get ddate
 ('71','1','Edwin','','Henry','1852'),
-('72','1','Evelyn','Murial','Gray',''),		--get ddate
+('72','1','Evelyn','Murial','Gray','0'),		--get ddate
 ('73','1','Bertha','','Richardson','1888'),
 ('74','1','Edmund','','Richardson','1908'),
 ('75','1','Mary','Ellen','Fraser','1900'),
-('76','1','Florence','','Fraser',''),		--get ddate
+('76','1','Florence','','Fraser','0'),		-- get ddate
 ('77','1','William','Murray','Fraser','1905'),		--maybe 1909
 ('78','1','Robert','','McLaren','1899'),
 ('79','1','Alexander','','Davidson','1875'),
@@ -125,7 +125,7 @@ VALUES('1','1','C.J.','','Woollard','1917'),
 ('112','1','William','Alfred','Clark','1950'),
 ('113','1','Norah','','Freeman','1889'),
 ('114','1','Piearce','','Freeman','1906'),
-('115','1','Emma','Isabella','Freeman',''),	--get ddate
+('115','1','Emma','Isabella','Freeman','0'),	--get ddate
 ('116','1','Alice','','Freeman','1887'),
 ('117','1','William','Gates','Freeman','1913'),
 ('118','1','William','Hugh','Freeman','1940'),
@@ -136,9 +136,9 @@ VALUES('1','1','C.J.','','Woollard','1917'),
 ('123','1','Joshua','Halliday','Gudgeon','1913'),
 ('124','1','Francis','Thomas','Reynolds','1910'),
 ('125','1','Sarah','Fanny','Reynolds','1925'),
-('126','1','Leonard','William','Reynolds','1928')
+('126','1','Leonard','William','Reynolds','1928');
 
--- Kensal Green Cemetery
+-- KENSAL GREEN CEMETERY
 INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
 VALUES('127','2','Charlotte','Gravelet','Blondin','1888'),
 ('128','2','Jean','Francois Gravelet','Blondin','1897'),
@@ -152,8 +152,8 @@ VALUES('127','2','Charlotte','Gravelet','Blondin','1888'),
 ('136','2','George','','Cruikshank','1878'),
 ('137','2','William','Vincent','Wallace','1865'),
 ('138','2','Andrew','','Ducrow','1842'),
-('139','2','Sophia','','','1848'),	--princess sophia, sister of duke of sussex
-('140','2','Augustus','Frederick','','1843'),	--duke of sussex
+('139','2','Sophia','','','1848'),	-- princess sophia, sister of duke of sussex
+('140','2','Augustus','Frederick','','1843'),	-- duke of sussex
 ('141','2','John','St. John','Long','1834'),
 ('142','2','Thomas','','Hood','1845'),
 ('143','2','Michael','William','Balfe','1870'),
@@ -185,7 +185,7 @@ VALUES('127','2','Charlotte','Gravelet','Blondin','1888'),
 ('169','2','William','','Hurst','1882'),
 ('170','2','Anthony','','Trollope','1882');
 
--- Abney Park Cemetery
+-- ABNEY PARK CEMETERY
 INSERT INTO Deceased(GraveID, CemID, fName, mName, lName, dYear)
 VALUES('171','3','Joseph','','Farley','1930'),
 ('172','3','John','William','Lansdell','1917'),
@@ -194,19 +194,19 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('175','3','Frances','Ann','Little','1918'),
 ('176','3','John','','Sykes','1842'),
 ('177','3','Joseph','','Sykes','1851'),
-('178','3','Charles','','Green',''),	-- ddate illegible
+('178','3','Charles','','Green','0'),	-- ddate illegible
 ('179','3','William','Joseph','Green','1871'),
-('180','3','Ann','','Green',''),	----ddate illegible
-('181','3','John','','Green',''),  -- ddate illegible, 188 something
+('180','3','Ann','','Green','0'),	----ddate illegible
+('181','3','John','','Green','0'),  -- ddate illegible, 188 something
 ('182','3','Robert','','Littler','1870'),
 ('183','3','Sarah','','Littler','1862'),
 ('184','3','John','','Littler','1844'),
 ('185','3','Charles','Reed','Knight','1881'),
-('186','3','Margaret','','Knight',''),	----ddate illegible, 189 something
+('186','3','Margaret','','Knight','0'),	----ddate illegible, 189 something
 ('187','3','Nellie','','','1917'),	--other info not provided
 ('188','3','Selina','Sarah','Tee','1916'),
 ('189','3','Edward','','Tee','1926'),
-('190','3','Sarah','Ann','Tee',''),	--ddate illegible
+('190','3','Sarah','Ann','Tee','0'),	--ddate illegible
 ('191','3','Bertha','Eileen','Allsop','1916'),
 ('192','3','Frank','T','Allsop','1918'),
 ('193','3','Frank','Charles','Allsop','1949'),
@@ -218,7 +218,7 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('199','3','Amelia','','Summers','1909'),
 ('200','3','Henrietta','Elizabeth','Summers','1937'),
 ('201','3','Francis','George','Summers','1951'),
-('202','3','Margaret','','Thomas',''),	--ddate illegible
+('202','3','Margaret','','Thomas','0'),	--ddate illegible
 ('203','3','Ellen','','Messenger','1887'),
 ('204','3','Kate','Louisa','Messenger','1881'),
 ('205','3','Janet','Louise','Messenger','1900'),
@@ -227,16 +227,16 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('208','3','Walter','Edmund','Messenger','1918'),
 ('209','3','Dorothy','Mary','','1891'),	-- last name possibly willis
 ('210','3','Mary','Ann','Willis','1898'),
-('211','3','George','Lovell','Russell',''),	--ddate illegible
+('211','3','George','Lovell','Russell','0'),	--ddate illegible
 ('212','3','Walter','Sadler','Simmons','1924'),
 ('213','3','Selina','Elizabeth','Simmons','1896'),
 ('214','3','Ella','Muriel','Simmons','1890'),
 ('215','3','Ethel','Irene','Simmons','1898'),
-('216','3','Selina','Gertrude','Simmons',''),	--ddate illegible, 192 something
-('217','3','Laura','','Simmons',''),	--middle name and ddate illegible, 1 something 9
+('216','3','Selina','Gertrude','Simmons','0'),	--ddate illegible, 192 something
+('217','3','Laura','','Simmons','0'),	--middle name and ddate illegible, 1 something 9
 ('218','3','Augustus','Townsend','Smith','1841'),
 ('220','3','Edward','','Smith','1870'),
-('221','3','Ann','Fletchley','Smith',''), --ddate illegible
+('221','3','Ann','Fletchley','Smith','0'), --ddate illegible
 ('222','3','Mary','','Fisher','1891'),
 ('223','3','Eden','','Fisher','1892'),
 ('224','3','Sarah','Elizabeth','Nuller','1926'),
@@ -247,14 +247,14 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('229','3','Helene','','Woitek','1920'),
 ('230','3','Janie','','Prater','1895'),
 ('231','3','Jane','Harriet','Prater','1896'),
-('232','3','Joseph','','Prater',''),	--ddate illegible
+('232','3','Joseph','','Prater','0'),	--ddate illegible
 ('233','3','Emily','','Clark','1895'),
 ('234','3','Theo','J','Towers','1841'),
 ('235','3','Kate','C','Towers','1862'),
 ('236','3','Clara','A','Towers','1862'),
 ('237','3','William','F','Towers','1888'),
 ('238','3','Harry','S','Towers','1872'),
-('239','3','Harry','','Prater',''),	-- ddate possibly 1857 or 1831?
+('239','3','Harry','','Prater','0'),	-- ddate possibly 1857 or 1831?
 ('240','3','Bernard','T','Horsley','1922'),
 ('241','3','Mary','Ann Elizabeth','Horsley','1936'),
 ('242','3','John','Henry','Horsley','1915'),
@@ -262,13 +262,13 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('244','3','William','Frank','Horsley','1939'),
 ('245','3','William','','Hardwood','1892'),
 ('246','3','Caroline','Emma','Martin','1914'),
-('247','3','Edward','','Hill',''),	--ddate illegible
-('248','3','Alfred','Edward','Hill',''), --ddate illegible
+('247','3','Edward','','Hill','0'),	--ddate illegible
+('248','3','Alfred','Edward','Hill','0'), --ddate illegible
 ('249','3','Jane','','Hill','1905'),
 ('250','3','George','','Yexley','1908'),
 ('251','3','Elizabeth','Frances','Yexley','1918'),
 ('252','3','Beatrice','Lizzie','Yexley','1928'),
-('253','3','Charles','James','Yexley',''), --ddate illegible
+('253','3','Charles','James','Yexley','0'), --ddate illegible
 ('254','3','Elizabeth','Alice','Jones','1897'),
 ('255','3','John','Idris','Jones','1897'),
 ('256','3','Olive','Charlotte','Jones','1915'),
@@ -279,7 +279,7 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('261','3','Elizabeth','','Wilson','1924'),
 ('262','3','Emma','','Wilson','1931'),
 ('263','3','Margaret','','Wonter','1823'),
-('264','3','Thomas','','Wonter',''),	--ddate illegible, 18 something 1
+('264','3','Thomas','','Wonter','0'),	--ddate illegible, 18 something 1
 ('265','3','Martin','','Brown','1867'),
 ('266','3','Sarah','','Brown','1884'),
 ('267','3','Jeremiah','','Death','1885'),
@@ -292,12 +292,12 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('274','3','Angelina','','Brown','1890'),
 ('275','3','Emily','','North','1888'),
 ('276','3','Lena','','North','1889'),	--ddate partially obscured, possibly 1889
-('277','3','Harry','','North',''),	--ddate obscured, possibly 1883 or 1933
-('278','3','Thomas','','Peardon',''),	--ddate obscured
+('277','3','Harry','','North','0'),	--ddate obscured, possibly 1883 or 1933
+('278','3','Thomas','','Peardon','0'),	--ddate obscured
 ('279','3','Ann','','Green','1895'),
 ('280','3','Edward','','Green','1902'),
 ('281','3','Ann','','Doran','1904'),	-- maiden name green
-('282','3','Edward','','Green',''),	--ddate illegible
+('282','3','Edward','','Green','0'),	--ddate illegible
 ('283','3','Henry','','Doran','1913'),	--husband of ann doran
 ('284','3','William','Thomas','Adlington','1895'),
 ('285','3','Herbert','Edward','Adlington','1920'),
@@ -308,10 +308,10 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('290','3','Kathleen','Matilda Annie','Whitby','1924'),
 ('291','3','John','','Furneaux','1869'),
 ('292','3','Elizabeth','','Miller','1869'),
-('293','3','Peter','','Miller',''),	--ddate obscured, husband of above
+('293','3','Peter','','Miller','0'),	--ddate obscured, husband of above
 ('294','3','Mary','','Miller','1885'),
-('295','3','Peter','','Miller',''),	--ddate obsucred, son of elizabeth and peter
-('296','3','Elizabeth','','Miller',''),	--ddate obscured, 19 something
+('295','3','Peter','','Miller','0'),	--ddate obsucred, son of elizabeth and peter
+('296','3','Elizabeth','','Miller','0'),	--ddate obscured, 19 something
 ('297','3','Ann','','Senecal','1865'),
 ('298','3','Ann','','Senecal','1886'),
 ('299','3','Robert','','Senecal','1890'),
@@ -331,7 +331,7 @@ VALUES('171','3','Joseph','','Farley','1930'),
 ('313','3','Nellie','','Pruncst','1909'),
 ('314','3','Rachel','','Snare','1900'),
 ('315','3','Emily','Lizette','Jarratt','1896'),
-('316','3','James','William Englbert','Vanner',''),
+('316','3','James','William Englbert','Vanner','0'),
 ('317','3','Edith','Sophia','Vanner','1933'),
 ('318','3','William','Engelbert','Vanner','1941'),
 ('319','3','Emily','Susan','Wills','1901'),
