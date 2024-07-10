@@ -56,9 +56,9 @@ We went on both official and unofficial cemetery tours of the listed cemeteries.
 The following assumptions were made based on each headstone analyzed:
 - If multiple people were buried in the same grave, unless otherwise stated, it was assumed they were related and shared a family name. 
 - If the date of death was illegible or obscured but could be partially made out, we put the most likely year based on what was visible and the other dates on the grave.
-    If fully illegible, the value is initialized as NULL.
+    If fully illegible, the value is initialized as 0.
 - If the names were illegible or obscured but could be partially made out, we put the most likely name based on what was visible and the surrounding graves since family members were often buried near one another.
-    If fully illegible, the value is initialized as NULL.
+    If fully illegible, the value is initialized as ''.
 ### Data Analysis
 
 ### Results
