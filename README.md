@@ -12,19 +12,22 @@
 May - June 2024
 
 ### Motivation
-The original goal of this project was to find a relation between gravestone iconography and atypical burial practices. Due to the high volume of graves we canvased and the difficulty in determining if each burial was atypical or not, we instead chose to focus on the meaning and commonalities of different gravestone iconographies used in burial practices over time.
+The original goal of this project was to find a relation between gravestone iconography and atypical burial practices. Due to the high volume of graves we canvased and the difficulty in determining if each burial was atypical or not, we instead chose to focus on the meaning and commonalities of different gravestone iconographies used in burial practices over time. Due to our shift in focus, our background information mostly relates to atypical burial practices, and our research questions have changed.
 
 
 ### Research Question(s)
-
+#### Original
 1. What iconography was used in relation to deviant burials?
-  - Are there symbols on the grave that differentiate between different burial types?
-  - Are there indicators between different types of deviant burials (criminal, vampire, witch, etc.)?
+    Are there symbols on the grave that differentiate between different burial types?
+    Are there indicators between different types of deviant burials (criminal, vampire, witch, etc.)?
 2. What condition are deviant burial sites in compared to non-deviant burials?
 3. What cemeteries have the most deviant burial sites?
-  - Is it possible to map all the deviant burial sites in London? 
-  - What are the most common types of deviant burials in London?
-
+    Is it possible to map all the deviant burial sites in London? 
+    What are the most common types of deviant burials in London?
+#### Current
+1. What different iconography was used in London cemeteries, and what do the icons mean?
+2. How was iconography on gravestones used to represent people in society in victorian cemeteries?
+    How does this differ outside of London and in different time periods?
 
 ### Background
 Burial practices are a very diverse way of expressing identity. Over time, burial practices have evolved with religious, political, and societal views (Evans, L. , 2020). Because of this, it is important to evaluate burials in respect to their time period (Buckberry, J., & Cherryson, A. 2016) and events that may have been occurring during that time, such as war or widespread disease (Arnold, C. , 2008). It is also important to examine possible effects that location, colonization, and religion have on not only the original society's burial practices, but the affected culture's own practices (Hayward SF. 2018). 
@@ -52,9 +55,10 @@ We went on both official and unofficial cemetery tours of the listed cemeteries.
 #### Assumptions
 The following assumptions were made based on each headstone analyzed:
 - If multiple people were buried in the same grave, unless otherwise stated, it was assumed they were related and shared a family name. 
-- 
--
-
+- If the date of death was illegible or obscured but could be partially made out, we put the most likely year based on what was visible and the other dates on the grave.
+    If fully illegible, the value is initialized as NULL.
+- If the names were illegible or obscured but could be partially made out, we put the most likely name based on what was visible and the surrounding graves since family members were often buried near one another.
+    If fully illegible, the value is initialized as NULL.
 ### Data Analysis
 
 
@@ -67,3 +71,5 @@ In the future, we would like to return to our original analysis goal of determin
 - date of birth
 - place of birth
 - occupation
+- title
+- age
