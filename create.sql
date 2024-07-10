@@ -22,3 +22,27 @@ CREATE TABLE IF NOT EXISTS Epitaph(
   EID INT PRIMARY KEY,
   Saying VARCHAR(500)
 );
+
+CREATE TABLE IF NOT EXISTS Headstone (
+    headstoneID INT PRIMARY KEY,
+    GraveID INT NOT NULL,
+    numIcons INT,
+    numEp INT DEFAULT 0,
+    icon1 INT DEFAULT 0,
+    icon2 INT DEFAULT 0,
+    icon3 INT DEFAULT 0,
+    icon4 INT DEFAULT 0,
+    ep1 INT DEFAULT 0,
+    ep2 INT DEFAULT 0,
+    ep3 INT DEFAULT 0,
+    ep4 INT DEFAULT 0,
+    FOREIGN KEY (GraveID) REFERENCES Deceased (GraveID),
+	  FOREIGN KEY (icon1) REFERENCES Icons (IconID),
+    FOREIGN KEY (icon2) REFERENCES Icons (IconID),
+    FOREIGN KEY (icon3) REFERENCES Icons (IconID),
+    FOREIGN KEY (icon4) REFERENCES Icons (IconID),
+    FOREIGN KEY (ep1) REFERENCES Epitaph (EID),
+    FOREIGN KEY (ep2) REFERENCES Epitaph (EID),
+    FOREIGN KEY (ep3) REFERENCES Epitaph (EID),
+    FOREIGN KEY (ep4) REFERENCES Epitaph (EID)
+);
