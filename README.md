@@ -1,5 +1,6 @@
 # London Gravestone Iconography
 ## Project Overview
+![](https://github.com/wyntersmith/Cemetery-Iconography/blob/547e53b2f7714f45255d57da30c18487e8243aaa/Gravestone_Images/Highgate/Random_Icons/PXL_20240602_143834509.jpg?raw=true)
 
 
 ### Contributers
