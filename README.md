@@ -60,6 +60,9 @@ The following assumptions were made based on each headstone analyzed:
     If fully illegible, the value is initialized as 0.
 - If the names were illegible or obscured but could be partially made out, we put the most likely name based on what was visible and the surrounding graves since family members were often buried near one another.
     If fully illegible, the value is initialized as ' '.
+
+Currently, the data is organized in a way that each deceased person is labled as being in their own grave. Most of these graves have multiple people buried there, so this is not entirely accurate. For those who share a headstone, each name has the same icons listed, but only the epitaphs directly relating to them were recorded in their "grave" on the dataset.
+
 ### Data Analysis
 
 ### Results
@@ -78,3 +81,5 @@ In the future, we would like to return to our original analysis goal of determin
 - occupation
 - title
 - age
+
+In the future, we would also like to redo the dataset in order to more accurately depict each grave. We would do this by changing the Headstone and Deceased tables, replacing GraveID with DeceasedID in the deceased table, and then using GraveID to mark the grave each deceased person is buried in. From there, the Headstone table would have primary key GraveID, and would list the icons and epitaphs on each headstone instead of directly associating it with the deceased.
