@@ -21,7 +21,6 @@
           {%- assign _class = 'icon' -%}
         {%- endif -%}
         {%- comment -%}<!-- page.url (no underscore) is the url of the current page-->{%- endcomment -%}
-	{{- _page.name -}}
         {%- if _page.url == page.url -%}
           <li><a href="#" id="{{- _slug -}}" class="active">
             <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
