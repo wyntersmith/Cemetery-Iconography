@@ -3,4 +3,20 @@ title: Data Collection
 icon: fa-user
 order: 6
 ---
-<p> Testing 1 2 3 </p>
+<p> We went on both official and unofficial cemetery tours of the listed cemeteries. During the tours, if a tour guide was present, we recorded the audio as well as took notes and pictures. Otherwise, we simply went around each cemetery, photographing different headstones, and then organizing the data in an SQL database by the following parameters: </p>
+ <ul>
+  <li>Cemetery</li>
+  <li>Date of Death</li>
+  <li>Name of Deceased</li>
+  <li>Present Iconography</li>
+  <li>Present Epitaph(s)</li>
+</ul>
+</br>
+<header> Assumptions </header>
+<p>The following assumptions were made based on each headstone analyzed:</p>
+ <ul>
+  <li>If multiple people were buried in the same grave, unless otherwise stated, it was assumed they were related and shared a family name.</li>
+  <li>If the date of death was illegible or obscured but could be partially made out, we put the most likely year based on what was visible and the other dates on the grave. If fully illegible, the value is initialized as 0.</li>
+  <li>If the names were illegible or obscured but could be partially made out, we put the most likely name based on what was visible and the surrounding graves since family members were often buried near one another. If fully illegible, the value is initialized as ' '.</li>
+</ul>
+<p>Currently, the data is organized in a way that each deceased person is labled as being in their own grave. Most of these graves have multiple people buried there, so this is not entirely accurate. For those who share a headstone, each name has the same icons listed, but only the epitaphs directly relating to them were recorded in their "grave" on the dataset.</p>
