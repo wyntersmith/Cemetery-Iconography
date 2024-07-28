@@ -4,7 +4,9 @@ title:  "Salisbury Cathederal"
 date:   2024-06-07 00:20:40 -0600
 categories: jekyll update
 ---
-![](https://github.com/wyntersmith/Cemetery-Iconography/blob/2616c27789f180b468c76a19f0766898c304b5d5/assets/images/Posts_Images/salisbury.jpg)
+
+<a href="#" class="image fit"><img src="{{ 'assets/images/Post_Images/salisbury.jpg' | relative_url }}"
+                    alt="salisbury" /></a>
 
 Number of Graves Catalogued:
 
