@@ -20,14 +20,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   A portfolio for CU Boulder INFO4747.
 baseurl: "/Cemetery-Iconography" # the subpath of your site, e.g. /blog
 url: "https://wyntersmith.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
 github_username:  wyntersmith
 
 # Build settings
 markdown: GFM
-remote_theme: wyntersmith/Cemetery-Iconography
+remote_theme: wyntersmith/Cemetery-Iconography@theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 collections: [sections]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
